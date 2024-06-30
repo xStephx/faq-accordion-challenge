@@ -10,8 +10,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: [here]()
-- Live Site URL: [here]()
+- Solution URL: [here](https://www.frontendmentor.io/solutions/solution-faq-accordion-t4vFgDweTa)
+- Live Site URL: [here](https://xstephx.github.io/faq-accordion-challenge/)
 
 ## My process
 
