@@ -21,20 +21,20 @@
 
 <body class="font-WorkSans bg-LightPink">
   <!-- Top Background -->
-  <div class="relative w-full min-h-screen flex items-center justify-center">
+  <main class="relative w-full min-h-screen flex items-center justify-center">
     <div class="w-full h-[320px] absolute top-0 left-0 z-10">
       <img src="assets/images/background-pattern-desktop.svg" alt="Top Background Desktop" class="hidden md:block w-full h-full object-cover">
       <img src="assets/images/background-pattern-mobile.svg" alt="Top Background Mobile" class="block md:hidden w-full h-full object-cover">
     </div>
     <!-- FAQ Section -->
-    <div class="relative z-20 flex flex-col items-start justify-center rounded-[20px] md:w-full md:max-w-[600px] bg-White text-white m-[20px] p-[32px]">
-      <div class="flex my-5 justify-start">
+    <section class="relative z-20 flex flex-col items-start justify-center rounded-[20px] md:w-full md:max-w-[600px] bg-White text-white m-[20px] p-[32px]">
+      <header class="flex my-5 justify-start">
         <img src="assets/images/icon-star.svg" alt="Star Icon" class="inline">
         <h1 class="font-bold text-DarkPurple text-6xl ml-[10px]">FAQs</h1>
-      </div>
+      </header>
       <div>
         <!-- Question 1 -->
-        <div>
+        <article>
           <div class="question flex items-center cursor-pointer">
             <p class="font-semibold text-DarkPurple cursor-pointer transition duration-300 ease-out hover:ease-in hover:text-[rgb(172,34,241)] md:text-[1.1rem] text-[1rem] my-[20px]">
               What is Frontend Mentor, and how will it help me?
@@ -47,10 +47,10 @@
             frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
             all levels and ideal for portfolio building.
           </p>
-        </div>
+        </article>
         <hr class="my-[2px]">
         <!-- Question 2 -->
-        <div>
+        <article>
           <div class="question flex items-center cursor-pointer">
             <p class="font-semibold text-DarkPurple cursor-pointer transition duration-300 ease-out hover:ease-in hover:text-[rgb(172,34,241)] md:text-[1.1rem] text-[1rem] my-[20px]">
               Is Frontend Mentor free?
@@ -62,10 +62,10 @@
             Yes, Frontend Mentor offers both free and premium coding challenges, with the free
             option providing access to a range of projects suitable for all skill levels.
           </p>
-        </div>
+        </article>
         <hr class="my-[2px]">
         <!-- Question 3 -->
-        <div>
+        <article>
           <div class="question flex items-center cursor-pointer">
             <p class="font-semibold text-DarkPurple cursor-pointer transition duration-300 ease-out hover:ease-in hover:text-[rgb(172,34,241)] md:text-[1.1rem] text-[1rem] my-[20px]">
               Can I use Frontend Mentor projects in my portfolio?
@@ -77,10 +77,10 @@
             Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
             way to showcase your skills to potential employers!
           </p>
-        </div>
+        </article>
         <hr class="my-[2px]">
         <!-- Question 4 -->
-        <div>
+        <article>
           <div class="question flex items-center cursor-pointer">
             <p class="font-semibold text-DarkPurple cursor-pointer transition duration-300 ease-out hover:ease-in hover:text-[rgb(172,34,241)] md:text-[1.1rem] text-[1rem] my-[20px] mr-[5px]">
               How can I get help if I'm stuck on a challenge?
@@ -92,10 +92,10 @@
             The best place to get help is inside Frontend Mentor's Discord community. There's a help
             channel where you can ask questions and seek support from other community members.
           </p>
-        </div>
+        </article>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
   <!-- Custom JS-->
   <script src="assets/js/script.js"></script>
 </body>
